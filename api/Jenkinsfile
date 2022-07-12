@@ -1,0 +1,22 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('pull code') {
+            steps {
+               git credentialsId: 'gitee-gin', url: 'https://gitee.com/meinongyihe/cartapi'
+            }
+        }
+         stage('build project' ) {
+            steps {
+              sh '''echo "开始构建"
+                    echo "构建完成"'''
+            }
+        }
+         stage('deploy project') {
+            steps {
+             sshPublisher(publishers: [sshPublisherDesc(configName: '118.178.94.65', transfers: [sshTransfer(cleanRemote: false, excludes: '', execCommand: 'echo "success"', execTimeout: 120000, flatten: false, makeEmptyDirs: false, noDefaultExcludes: false, patternSeparator: '[, ]+', remoteDirectory: 'pipeline', remoteDirectorySDF: false, removePrefix: '', sourceFiles: '**')], usePromotionTimestamp: false, useWorkspaceInPromotion: false, verbose: false)])
+            }
+        }
+    }
+}

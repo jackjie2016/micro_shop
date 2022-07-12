@@ -1,0 +1,36 @@
+2021-07-28T14:19:14.830+0800	[31mERROR[0m	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"orders_web","group":"dev","tenant":"735cba8b-b277-4b09-8756-00cfee8bf52b"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2021-07-28T14:19:18.270+0800	[31mERROR[0m	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"orders_web","group":"dev","tenant":"735cba8b-b277-4b09-8756-00cfee8bf52b"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2021-07-28T14:19:18.276+0800	[31mERROR[0m	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"orders_web","group":"dev","tenant":"735cba8b-b277-4b09-8756-00cfee8bf52b"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2021-07-28T14:19:18.279+0800	[34mINFO[0m	get config from server error:[404] config data not exist
+ 
+2021-07-28T14:19:18.367+0800	[33mWARN[0m	[client.GetConfig] config not found, dataId: orders_web, group: dev, namespaceId: 735cba8b-b277-4b09-8756-00cfee8bf52b.
+2021-07-28T14:30:14.290+0800	[31mERROR[0m	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"orders_web","group":"dev","tenant":"735cba8b-b277-4b09-8756-00cfee8bf52b"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2021-07-28T14:30:18.649+0800	[31mERROR[0m	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"orders_web","group":"dev","tenant":"735cba8b-b277-4b09-8756-00cfee8bf52b"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2021-07-28T14:30:18.660+0800	[31mERROR[0m	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"orders_web","group":"dev","tenant":"735cba8b-b277-4b09-8756-00cfee8bf52b"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2021-07-28T14:30:18.660+0800	[34mINFO[0m	get config from server error:[404] config data not exist
+ 
+2021-07-28T14:30:18.661+0800	[33mWARN[0m	[client.GetConfig] config not found, dataId: orders_web, group: dev, namespaceId: 735cba8b-b277-4b09-8756-00cfee8bf52b.
+2021-07-28T14:31:25.455+0800	[31mERROR[0m	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"orders_web","group":"dev","tenant":"735cba8b-b277-4b09-8756-00cfee8bf52b"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2021-07-28T14:31:31.739+0800	[31mERROR[0m	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"orders_web","group":"dev","tenant":"735cba8b-b277-4b09-8756-00cfee8bf52b"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2021-07-28T14:31:31.742+0800	[31mERROR[0m	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"orders_web","group":"dev","tenant":"735cba8b-b277-4b09-8756-00cfee8bf52b"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2021-07-28T14:31:31.742+0800	[34mINFO[0m	get config from server error:[404] config data not exist
+ 
+2021-07-28T14:31:31.743+0800	[33mWARN[0m	[client.GetConfig] config not found, dataId: orders_web, group: dev, namespaceId: 735cba8b-b277-4b09-8756-00cfee8bf52b.

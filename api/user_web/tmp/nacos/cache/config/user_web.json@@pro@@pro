@@ -1,0 +1,32 @@
+{
+    "name":"user_web",
+    "tags":["mxshop","imooc","user_web"],
+    "host":"172.16.188.150",
+    "port":18801,
+    "user_srv":{
+      "name":"user_srv"
+    },
+    "redis":{
+      "host":"172.16.188.150",
+      "port":6379,
+      "expire":7200
+    },
+    "sms":{
+      "key":"LTAI4FvwQQ4rNnYLAEfhE19v",
+      "secret":"wzLD9a4D9TRx1PAxulU0ezPs54W6kN",
+      "sign":"IT情报站",
+      "template_code":"SMS_107035081"
+    },
+    "jwt":{
+      "key":"a6E4ctbMMqY6jjBvq0SwlqBMsbu6HvXg"
+    },
+    "consul":{
+      "host":"172.16.188.151",
+      "port":8500
+    },
+    "jaeger":{
+      "name":"mxshop",
+      "host":"172.16.188.151",
+      "port":6831
+    }
+}

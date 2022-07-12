@@ -1,0 +1,21 @@
+{
+  "name": "goods-web",
+  "host": "127.0.0.1",
+  "port": 8022,
+  "tags":["bbb","vcc"],
+  "goods_srv": {
+    "name": "goods-srv"
+  },
+  "jwt": {
+    "key": "nfhxnYXTodA7moigtuJ31QJFh0cHGARg"
+  },
+  "consul": {
+    "host": "127.0.0.1",
+    "port": 8500
+  },
+ "jaeger": {
+     "name":"mxshop",
+    "host": "127.0.0.1",
+    "port": 6831
+  }
+}

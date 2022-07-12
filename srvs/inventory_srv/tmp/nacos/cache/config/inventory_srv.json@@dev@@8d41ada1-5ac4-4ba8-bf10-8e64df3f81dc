@@ -1,0 +1,32 @@
+{
+    "name":"inventory_srv",
+    "tags":["mxshop","imooc"],
+    "host":"127.0.0.1",
+    "port":8022,
+    "goods_srv":{
+      "name":"goods-srv"
+    },
+    "mysql":{
+      "host":"127.0.0.1",
+      "port":3306,
+      "username":"root",
+      "basename":"mxshop_inventory_srv",
+      "password":"admin123"
+    },
+    "es":{
+      "host":"47.97.107.70",
+      "port":3306
+    },
+    "jwt":{
+      "key":"a6E4ctbMMqY6jjBvq0SwlqBMsbu6HvXg"
+    },
+    "consul":{
+      "host":"127.0.0.1",
+      "port":8500
+    },
+    "jaeger":{
+      "name":"mxshop",
+      "host":"127.0.0.1",
+      "port":6831
+    }
+}

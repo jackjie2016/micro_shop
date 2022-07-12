@@ -1,0 +1,7 @@
+host: '47.97.215.11'
+port: 8848
+namespace: "pro"
+user: 'nacos'
+password: 'nacos'
+dataid: 'user_web.json'
+group: 'pro'

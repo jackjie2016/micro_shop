@@ -1,0 +1,30 @@
+{
+  "name": "user-web",
+  "port": 8021,
+  "tags":["ddd","dddvv"],
+  "mysql": {
+    "host": "127.0.0.1",
+    "port": 3306
+  },
+  "user_srv": {
+    "name": "user-srv"
+  },
+  "jwt": {
+    "key": "nfhxnYXTodA7moigtuJ31QJFh0cHGARg"
+  },
+  "sms": {
+    "key": "LTAI4FvwQQ4rNnYLAEfhE19v",
+    "secret": "wzLD9a4D9TRx1PAxulU0ezPs54W6kN",
+    "sign": "IT情报站",
+    "template_code": "SMS_127835127"
+  },
+  "redis": {
+    "host": "127.0.0.1",
+    "port": 6379,
+    "expire": 86400
+  },
+  "consul": {
+    "host":"127.0.0.1",
+    "port": 8500
+  }
+}

@@ -1,0 +1,58 @@
+#声明版本
+version: "3"
+#定义服务
+services:
+  #服务名称，能够在同一个网络内按照名称访问
+  consul:
+    #说明采用的镜像地址
+    image: consul
+    container_name: consul
+    restart: always
+    #镜像对外映射的端口
+    ports:
+      - "8500:8500"
+      - "8300:8300"
+      - "8600:8600/udp"
+      - "8302:8302"
+  nacos:
+    image: nacos/nacos-server:latest
+    container_name: nacos-standalone
+    restart: always
+    environment:
+      - "ES_JAVA_OPTS=-Xms256m -Xmx256m -Xmn256m"
+      - discovery.type=single-node
+    ports:
+      - "8848:8848"
+  #服务名称，能够在同一个网络内按照名称访问
+  jaeger:
+    #说明采用的镜像地址
+    image: jaegertracing/all-in-one:latest
+    #镜像对外映射的端口
+    ports:
+      - "6831:6831/udp"
+      - "16686:16686"
+  elasticsearch:
+    image: elasticsearch:7.10.1
+    restart: always
+    hostname: 0.0.0.0
+    container_name: es-single
+    volumes:
+      - E:/go_work/mxshop-golang-system-course/docker/elasticsearch/data:/usr/share/elasticsearch/data
+      - E:/go_work/mxshop-golang-system-course/docker/elasticsearch/plugins:/usr/share/elasticsearch/plugins
+      - E:/go_work/mxshop-golang-system-course/docker/elasticsearch/config/elasticsearch.yml:/usr/share/elasticsearch/config/elasticsearch.yml
+    environment:
+      ES_JAVA_OPTS: "-Xmx256m -Xms256m"
+      discovery.type: single-node
+      network.publish_host: _eth0_
+    ports:
+      - '9200:9200'     #java、集群通信端口
+      - '9300:9300'     #http通信端口
+    privileged: true    #环境变量
+  kibana:
+    image: kibana:7.10.1
+    ports:
+      - "5601:5601"
+    volumes:
+      - ./kibana/config/kibana.yml:/usr/share/kibana/config/kibana.yml
+
+

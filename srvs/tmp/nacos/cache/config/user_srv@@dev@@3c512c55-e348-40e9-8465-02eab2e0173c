@@ -1,0 +1,29 @@
+{
+    "name":"user-srv",
+    "host":"192.168.31.134",
+    "mysql":{
+        "host":"127.0.0.1",
+        "port":3306,
+        "username":"root",
+        "basename":"mxshop_user_srv",
+        "password":"admin123"
+    },
+    "jwt":{
+        "key":"nfhxnYXTodA7moigtuJ31QJFh0cHGARg"
+    },
+    "sms":{
+        "key":"LTAI4FvwQQ4rNnYLAEfhE19v",
+        "secret":"wzLD9a4D9TRx1PAxulU0ezPs54W6kN",
+        "sign":"IT\u60c5\u62a5\u7ad9",
+        "template_code":"SMS_127835127"
+    },
+    "redis":{
+        "host":"127.0.0.1",
+        "port":6379,
+        "expire":86400
+    },
+    "consul":{
+        "host":"127.0.0.1",
+        "port":8500
+    }
+}

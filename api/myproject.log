@@ -1,0 +1,5 @@
+{"level":"info","ts":1625668639.1728654,"caller":"zap_log_file/main.go:27","msg":"failed to fetch URL{url 15 0 https://imooc.com <nil>} {attempt 11 3  <nil>} {backoff 8 1000000000  <nil>}"}
+{"level":"info","ts":1625668842.540384,"caller":"zap_log_file/main.go:28","msg":"failed to fetch URL{url 15 0 https://imooc.com <nil>} {attempt 11 3  <nil>} {backoff 8 1000000000  <nil>}"}
+{"level":"info","ts":1625668883.5220335,"caller":"zap_log_file/main.go:29","msg":"failed to fetch URL{url 15 0 https://imooc.com <nil>} {attempt 11 3  <nil>} {backoff 8 1000000000  <nil>}"}
+{"level":"info","ts":1625669000.7385626,"caller":"zap_log_file/main.go:30","msg":"failed to fetch URL{url 15 0 https://imooc.com <nil>} {attempt 11 3  <nil>} {backoff 8 1000000000  <nil>}"}
+{"level":"info","ts":1625669011.819029,"caller":"zap_log_file/main.go:30","msg":"failed to fetch URL{url 15 0 https://imooc.com <nil>} {attempt 11 3  <nil>} {backoff 8 1000000000  <nil>}"}

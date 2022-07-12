@@ -1,0 +1,23 @@
+{
+    "name":"userop_web",
+    "tags":["mxshop","imooc","userop_srv"],
+    "host":"172.16.188.151",
+    "goods_srv":{
+      "name":"goods_srv"
+    },
+    "userop_srv":{
+      "name":"userop_srv"
+    },
+    "jwt":{
+      "key":"a6E4ctbMMqY6jjBvq0SwlqBMsbu6HvXg"
+    },
+    "consul":{
+      "host":"172.16.188.151",
+      "port":8500
+    },
+    "jaeger":{
+      "name":"mxshop",
+      "host":"172.16.188.151",
+      "port":6831
+    }
+}

@@ -1,0 +1,12 @@
+2021-07-21T22:22:32.274+0800	[31mERROR[0m	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"oss-web","group":"dev","tenant":"c735cba8b-b277-4b09-8756-00cfee8bf52b"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2021-07-21T22:22:36.234+0800	[31mERROR[0m	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"oss-web","group":"dev","tenant":"c735cba8b-b277-4b09-8756-00cfee8bf52b"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2021-07-21T22:22:36.239+0800	[31mERROR[0m	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"oss-web","group":"dev","tenant":"c735cba8b-b277-4b09-8756-00cfee8bf52b"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2021-07-21T22:22:36.240+0800	[34mINFO[0m	get config from server error:[404] config data not exist
+ 
+2021-07-21T22:22:36.387+0800	[33mWARN[0m	[client.GetConfig] config not found, dataId: oss-web, group: dev, namespaceId: c735cba8b-b277-4b09-8756-00cfee8bf52b.

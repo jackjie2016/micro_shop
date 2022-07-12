@@ -1,0 +1,33 @@
+.col-head{
+    background: #e7e7e7;
+    padding: 0 10px;
+    width: 60px;
+    text-align: center;
+    margin-right:10px;
+}
+.col-value{
+
+
+    width: 60px;
+
+}
+.Processlist{
+    position: absolute;
+    background: antiquewhite;
+    width: 100%;
+    z-index: 100;
+    display: none;
+}
+.Processlist div{
+    padding-left: 10px;
+    height: 25px;
+    line-height: 25px;
+    border-bottom: dashed;
+}
+
+.ProcessSelect:hover .Processlist{
+    display: block;
+}
+.Processlist div:hover{
+    background: snow;
+}

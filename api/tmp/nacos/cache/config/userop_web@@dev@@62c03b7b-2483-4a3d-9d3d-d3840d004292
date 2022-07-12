@@ -1,0 +1,18 @@
+{
+  "name": "userop-web",
+  "port": 8027,
+  "tags":["ddd","dddvv","userop-web"],
+  "userop_srv": {
+    "name": "userop-srv"
+  },
+    "goods_srv": {
+    "name": "goods-srv"
+  },
+  "jwt": {
+    "key": "nfhxnYXTodA7moigtuJ31QJFh0cHGARg"
+  },
+  "consul": {
+    "host":"127.0.0.1",
+    "port": 8500
+  }
+}

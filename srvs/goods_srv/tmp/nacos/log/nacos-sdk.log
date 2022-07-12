@@ -1,0 +1,26 @@
+2022-03-30T14:37:46.599+0800	[31mERROR[0m	nacos_server/nacos_server.go:194	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"goods_srv","group":"dev","tenant":"78cae85b-5872-4b74-8180-b22fcac82b94"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2022-03-30T14:37:46.645+0800	[31mERROR[0m	nacos_server/nacos_server.go:194	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"goods_srv","group":"dev","tenant":"78cae85b-5872-4b74-8180-b22fcac82b94"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2022-03-30T14:37:46.700+0800	[31mERROR[0m	nacos_server/nacos_server.go:194	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"goods_srv","group":"dev","tenant":"78cae85b-5872-4b74-8180-b22fcac82b94"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2022-03-30T14:37:46.706+0800	[31mERROR[0m	config_client/config_client.go:191	get config from server error:[404] config data not exist
+ 
+2022-03-30T14:37:46.709+0800	[33mWARN[0m	config_client/config_client.go:196	[client.GetConfig] config not found, dataId: goods_srv, group: dev, namespaceId: 78cae85b-5872-4b74-8180-b22fcac82b94.
+2022-03-30T14:39:50.927+0800	[31mERROR[0m	nacos_server/nacos_server.go:194	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"goods_srv","group":"dev","tenant":"78cae85b-5872-4b74-8180-b22fcac82b94"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2022-03-30T14:39:50.969+0800	[31mERROR[0m	nacos_server/nacos_server.go:194	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"goods_srv","group":"dev","tenant":"78cae85b-5872-4b74-8180-b22fcac82b94"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2022-03-30T14:39:51.015+0800	[31mERROR[0m	nacos_server/nacos_server.go:194	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"goods_srv","group":"dev","tenant":"78cae85b-5872-4b74-8180-b22fcac82b94"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2022-03-30T14:39:51.017+0800	[31mERROR[0m	config_client/config_client.go:191	get config from server error:[404] config data not exist
+ 
+2022-03-30T14:39:51.019+0800	[33mWARN[0m	config_client/config_client.go:196	[client.GetConfig] config not found, dataId: goods_srv, group: dev, namespaceId: 78cae85b-5872-4b74-8180-b22fcac82b94.
+2022-04-17T22:38:30.704+0800	[31mERROR[0m	nacos_server/nacos_server.go:194	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"goods_srv.json","group":"pro","tenant":"pro"}>, call domain error:<Get "http://172.16.188.151:8848/nacos/v1/cs/configs?dataId=goods_srv.json&group=pro&tenant=pro": context deadline exceeded (Client.Timeout exceeded while awaiting headers)> , result:<>
+2022-04-17T22:38:35.710+0800	[31mERROR[0m	nacos_server/nacos_server.go:194	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"goods_srv.json","group":"pro","tenant":"pro"}>, call domain error:<Get "http://172.16.188.151:8848/nacos/v1/cs/configs?group=pro&tenant=pro&dataId=goods_srv.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers)> , result:<>

@@ -1,0 +1,37 @@
+{
+    "name":"goods-srv",
+    "mysql":{
+        "host":"127.0.0.1",
+        "port":3306,
+        "username":"root",
+        "basename":"mxshop_goods_srv",
+        "password":"admin123"
+    },
+    "jwt":{
+        "key":"nfhxnYXTodA7moigtuJ31QJFh0cHGARg"
+    },
+    "sms":{
+        "key":"LTAI4FvwQQ4rNnYLAEfhE19v",
+        "secret":"wzLD9a4D9TRx1PAxulU0ezPs54W6kN",
+        "sign":"IT\u60c5\u62a5\u7ad9",
+        "template_code":"SMS_127835127"
+    },
+    "redis":{
+        "host":"127.0.0.1",
+        "port":6379,
+        "expire":86400
+    },
+    "consul":{
+        "host":"47.97.177.69",
+        "port":8500
+    },
+    "es":{
+        "host":"192.168.31.134",
+        "port":9200
+    },
+ "jaeger": {
+     "name":"mxshop",
+    "host": "127.0.0.1",
+    "port": 6831
+  }
+}

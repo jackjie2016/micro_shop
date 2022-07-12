@@ -1,0 +1,12 @@
+2021-07-25T10:42:00.821+0800	[31mERROR[0m	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"order_srv","group":"dev","tenant":"e5da5029-f59a-42f2-bf4c-d302cae22e89"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2021-07-25T10:42:04.607+0800	[31mERROR[0m	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"order_srv","group":"dev","tenant":"e5da5029-f59a-42f2-bf4c-d302cae22e89"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2021-07-25T10:42:04.612+0800	[31mERROR[0m	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"order_srv","group":"dev","tenant":"e5da5029-f59a-42f2-bf4c-d302cae22e89"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2021-07-25T10:42:04.614+0800	[34mINFO[0m	get config from server error:[404] config data not exist
+ 
+2021-07-25T10:42:04.616+0800	[33mWARN[0m	[client.GetConfig] config not found, dataId: order_srv, group: dev, namespaceId: e5da5029-f59a-42f2-bf4c-d302cae22e89.

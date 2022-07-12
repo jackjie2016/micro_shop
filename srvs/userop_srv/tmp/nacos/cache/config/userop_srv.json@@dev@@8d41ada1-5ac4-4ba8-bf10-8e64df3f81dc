@@ -1,0 +1,24 @@
+{
+    "name":"userop_srv",
+    "tags":["mxshop","imooc","userop_srv"],
+    "host":"127.0.0.1",
+    "mysql":{
+      "host":"127.0.0.1",
+      "port":3306,
+      "username":"root",
+      "basename":"mxshop_userop_srv",
+      "password":"admin123"
+    },
+    "jwt":{
+      "key":"a6E4ctbMMqY6jjBvq0SwlqBMsbu6HvXg"
+    },
+    "consul":{
+      "host":"127.0.0.1",
+      "port":8500
+    },
+    "jaeger":{
+      "name":"mxshop",
+      "host":"127.0.0.1",
+      "port":6831
+    }
+}

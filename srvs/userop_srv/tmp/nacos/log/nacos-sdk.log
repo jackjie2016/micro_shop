@@ -1,0 +1,14 @@
+2022-04-01T15:11:08.509+0800	[31mERROR[0m	nacos_server/nacos_server.go:194	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"userop_srv","group":"dev","tenant":"8d41ada1-5ac4-4ba8-bf10-8e64df3f81dc"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2022-04-01T15:11:08.525+0800	[31mERROR[0m	nacos_server/nacos_server.go:194	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"userop_srv","group":"dev","tenant":"8d41ada1-5ac4-4ba8-bf10-8e64df3f81dc"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2022-04-01T15:11:08.532+0800	[31mERROR[0m	nacos_server/nacos_server.go:194	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"userop_srv","group":"dev","tenant":"8d41ada1-5ac4-4ba8-bf10-8e64df3f81dc"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2022-04-01T15:11:08.534+0800	[31mERROR[0m	config_client/config_client.go:191	get config from server error:[404] config data not exist
+ 
+2022-04-01T15:11:08.541+0800	[33mWARN[0m	config_client/config_client.go:196	[client.GetConfig] config not found, dataId: userop_srv, group: dev, namespaceId: 8d41ada1-5ac4-4ba8-bf10-8e64df3f81dc.
+2022-04-10T22:25:14.046+0800	[31mERROR[0m	nacos_server/nacos_server.go:194	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"userop_srv.json","group":"pro","tenant":"pro"}>, call domain error:<Get "http://172.16.188.151:8848/nacos/v1/cs/configs?dataId=userop_srv.json&group=pro&tenant=pro": context deadline exceeded (Client.Timeout exceeded while awaiting headers)> , result:<>
+2022-04-10T22:25:19.055+0800	[31mERROR[0m	nacos_server/nacos_server.go:194	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"userop_srv.json","group":"pro","tenant":"pro"}>, call domain error:<Get "http://172.16.188.151:8848/nacos/v1/cs/configs?dataId=userop_srv.json&group=pro&tenant=pro": context deadline exceeded (Client.Timeout exceeded while awaiting headers)> , result:<>

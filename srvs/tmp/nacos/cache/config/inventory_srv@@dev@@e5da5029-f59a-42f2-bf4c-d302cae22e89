@@ -1,0 +1,29 @@
+{
+    "name":"inventory-srv",
+    "host":"172.27.160.1",
+    "tags":["imooc","bobby"],
+    "mysql":{
+        "host":"127.0.0.1",
+        "port":3306,
+        "username":"root",
+        "basename":"mxshop_inventory_srv",
+        "password":"admin123"
+    },
+    "jwt":{
+        "key":"nfhxnYXTodA7moigtuJ31QJFh0cHGARg"
+    },
+    "redis":{
+        "host":"127.0.0.1",
+        "port":6379,
+        "expire":86400
+    },
+    "consul":{
+        "host":"127.0.0.1",
+        "port":8500
+    },
+ "jaeger": {
+     "name":"mxshop",
+    "host": "127.0.0.1",
+    "port": 6831
+  }
+}

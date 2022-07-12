@@ -1,0 +1,26 @@
+syntax = "proto3";
+option go_package = ".;proto";
+import "base.proto";
+import "google/protobuf/empty.proto";
+import "google/protobuf/timestamp.proto";
+service Greeter {
+  rpc SayHello (HelloRequest) returns (HelloReply);
+  rpc Ping (google.protobuf.Empty) returns (Pong);
+}
+enum Gender{
+  MALE=0;
+  FEMALE=1;
+}
+message HelloRequest {
+  string name = 1;
+  string url = 2;
+  Gender g=3;
+  map<string,string> mp=4;
+  google.protobuf.Timestamp addTime=5;
+}
+
+message HelloReply {
+  string message = 1;
+}
+
+//go语言中是生成一个文件， 也就只有python会生成两个文件

@@ -1,0 +1,48 @@
+2022-04-12T23:38:22.749+0800	[31mERROR[0m	nacos_server/nacos_server.go:194	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"orders_web.json","group":"pro","tenant":"pro"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2022-04-12T23:38:22.759+0800	[31mERROR[0m	nacos_server/nacos_server.go:194	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"orders_web.json","group":"pro","tenant":"pro"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2022-04-12T23:38:22.767+0800	[31mERROR[0m	nacos_server/nacos_server.go:194	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"orders_web.json","group":"pro","tenant":"pro"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2022-04-12T23:38:22.769+0800	[31mERROR[0m	config_client/config_client.go:191	get config from server error:[404] config data not exist
+ 
+2022-04-12T23:38:22.769+0800	[33mWARN[0m	config_client/config_client.go:196	[client.GetConfig] config not found, dataId: orders_web.json, group: pro, namespaceId: pro.
+2022-04-12T23:38:58.794+0800	[31mERROR[0m	nacos_server/nacos_server.go:194	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"orders_web.json","group":"pro","tenant":"pro"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2022-04-12T23:38:58.804+0800	[31mERROR[0m	nacos_server/nacos_server.go:194	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"orders_web.json","group":"pro","tenant":"pro"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2022-04-12T23:38:58.812+0800	[31mERROR[0m	nacos_server/nacos_server.go:194	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"orders_web.json","group":"pro","tenant":"pro"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2022-04-12T23:38:58.812+0800	[31mERROR[0m	config_client/config_client.go:191	get config from server error:[404] config data not exist
+ 
+2022-04-12T23:38:58.812+0800	[33mWARN[0m	config_client/config_client.go:196	[client.GetConfig] config not found, dataId: orders_web.json, group: pro, namespaceId: pro.
+2022-04-12T23:39:57.716+0800	[31mERROR[0m	nacos_server/nacos_server.go:194	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"orders_web.json","group":"pro","tenant":"pro"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2022-04-12T23:39:57.726+0800	[31mERROR[0m	nacos_server/nacos_server.go:194	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"orders_web.json","group":"pro","tenant":"pro"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2022-04-12T23:39:57.734+0800	[31mERROR[0m	nacos_server/nacos_server.go:194	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"orders_web.json","group":"pro","tenant":"pro"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2022-04-12T23:39:57.734+0800	[31mERROR[0m	config_client/config_client.go:191	get config from server error:[404] config data not exist
+ 
+2022-04-12T23:39:57.734+0800	[33mWARN[0m	config_client/config_client.go:196	[client.GetConfig] config not found, dataId: orders_web.json, group: pro, namespaceId: pro.
+2022-04-12T23:41:20.429+0800	[31mERROR[0m	nacos_server/nacos_server.go:194	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"orders_web.json","group":"pro","tenant":"pro"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2022-04-12T23:41:20.439+0800	[31mERROR[0m	nacos_server/nacos_server.go:194	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"orders_web.json","group":"pro","tenant":"pro"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2022-04-12T23:41:20.448+0800	[31mERROR[0m	nacos_server/nacos_server.go:194	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"orders_web.json","group":"pro","tenant":"pro"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2022-04-12T23:41:20.448+0800	[31mERROR[0m	config_client/config_client.go:191	get config from server error:[404] config data not exist
+ 
+2022-04-12T23:41:20.449+0800	[33mWARN[0m	config_client/config_client.go:196	[client.GetConfig] config not found, dataId: orders_web.json, group: pro, namespaceId: pro.
